@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------
+# PORTADA
+--------------------------------------------------------------*/
+
+    .portada {
+      margin: 0;
+    }
+  
+    .contenedorPortada {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+    .tituloPortada {
+      text-transform: uppercase;
+      position: absolute;
+      top: 23vw;
+      left: 12vw;
+    
+      h2 {
+        font-weight: bold;
+        font-size: $tam-fuente-h2;
+        letter-spacing: 2px;
+      }
+    
+      p {
+        text-align: center;
+        letter-spacing: normal;
+        font-size: 3vw;
+      }
+    }

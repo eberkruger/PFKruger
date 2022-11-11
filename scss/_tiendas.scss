@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------
+# SECCIÓN TIENDAS
+--------------------------------------------------------------*/
+
+.indumentariaBikini {
+    font-family: outfit;
+    text-transform: uppercase;
+    background-color: $color-secundario;
+    padding-top: 5vw;
+  
+    h2 {
+      color: black;
+      font-size: xx-large;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom: 4vw;
+      letter-spacing: 2px;
+    }
+}
+  
+.tituloTienda h2 {
+    font-size: 3.5vw;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 1.7vw;
+}
+  
+.flyTiendas {
+    p {
+      text-align: center;
+      letter-spacing: normal;
+      font-size: 1.8vw;
+      color: white;
+      margin: 0%;
+    }
+  
+    a {
+      color: black;
+      font-size: 1.3vw;
+      background-color: white;
+      padding: 1vw;
+      border-radius: 4px;
+      font-weight: bold;
+
+      &:hover {
+        color: rgb(122, 73, 73);
+        
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 0.5s;
+        
+      }
+    }
+}
+  
+.tiendas {
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+  
+.flyTiendas {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    &:hover img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      transition: 2s;
+    }
+  
+    overflow: hidden;
+}
+  
+.tituloTienda {
+    position: relative;
+    bottom: 38vw;
+}
