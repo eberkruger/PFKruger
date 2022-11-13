@@ -1,0 +1,58 @@
+/*--------------------------------------------------------------
+# QUIENES SOMOS
+--------------------------------------------------------------*/
+.sobreFly {
+    padding: 0%;
+    margin: 0%;
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .titulo4 {
+    padding: 0%;
+    margin: 0%;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  
+    h2 {
+      font-family: outfit;
+      font-size: $tam-fuente-h2;
+      font-weight: normal;
+    }
+  }
+  
+  .imgSobreFly {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .quienesSomos {
+    padding: 0%;
+    margin: 0%;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+  }
+  
+  .titulo5 {
+    margin-bottom: 3.5vw;
+  
+    h3 {
+      font-family: outfit;
+      font-weight: bold;
+      font-size: 2.5vw;
+    }
+  }
+  
+  .descripcion1 {
+    padding-left: 12vw;
+    padding-right: 12vw;
+  
+    p {
+      font-family: outfit;
+      font-weight: bold;
+      font-size: $tam-fuente-parrafo;
+    }
+  }

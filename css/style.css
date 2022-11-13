@@ -60,7 +60,7 @@ html body ul {
 #navbarSupportedContent {
   font-size: 3vh;
   font-weight: bold;
-  padding-left: 13%;
+  padding-left: 10.4%;
   color: black;
   text-transform: uppercase;
 }
@@ -196,7 +196,7 @@ html body ul {
 .itemIngresos p {
   margin-top: 2vw;
   margin-bottom: 5vw;
-  font-size: 2.7vh;
+  font-size: 2.9vh;
 }
 .itemIngresos:hover img {
   -webkit-transform: scale(1.1);
@@ -394,7 +394,7 @@ html body ul {
 }
 .productosBikinis p {
   font-family: outfit;
-  font-size: 2.7vh;
+  font-size: 2.9vh;
   margin-top: 1vw;
   margin-bottom: 5vw;
   font-weight: bold;
@@ -426,6 +426,61 @@ html body ul {
   text-align: center;
   letter-spacing: normal;
   font-size: 2.5vw;
+}
+
+/*--------------------------------------------------------------
+# QUIENES SOMOS
+--------------------------------------------------------------*/
+.sobreFly {
+  padding: 0%;
+  margin: 0%;
+}
+.sobreFly img {
+  width: 100%;
+  height: auto;
+}
+
+.titulo4 {
+  padding: 0%;
+  margin: 0%;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+.titulo4 h2 {
+  font-family: outfit;
+  font-size: 5vw;
+  font-weight: normal;
+}
+
+.imgSobreFly {
+  padding: 0%;
+  margin: 0%;
+}
+
+.quienesSomos {
+  padding: 0%;
+  margin: 0%;
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+}
+
+.titulo5 {
+  margin-bottom: 3.5vw;
+}
+.titulo5 h3 {
+  font-family: outfit;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+
+.descripcion1 {
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+.descripcion1 p {
+  font-family: outfit;
+  font-weight: bold;
+  font-size: 2.9vh;
 }
 
 /*# sourceMappingURL=style.css.map */
