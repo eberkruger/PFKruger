@@ -21,21 +21,37 @@
   src: url(../assets/fonts/lato/Lato-Thin.ttf);
 }
 /* CONFIGURACIÓN GENERAL */
-body {
+html {
+  font-size: 62.5%;
+}
+html body {
   margin: 0;
   padding: 0;
   line-height: 2;
   font-family: outfit;
 }
-
-ul {
+html body ul {
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.6s ease;
+  z-index: 997;
+}
+
+.logo {
   color: black;
+  font-weight: bold;
+  font-size: 5.5vh;
+  text-transform: uppercase;
+  margin-right: 1%;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  letter-spacing: 1.5px;
 }
 
 /*--------------------------------------------------------------
@@ -62,7 +78,9 @@ a {
 }
 
 .navbar a {
+  text-decoration: none;
   color: black;
+  display: inline-block;
   transition: 0.3s;
   width: max-content;
 }
@@ -70,7 +88,7 @@ a {
   color: rgb(185, 134, 134);
   -webkit-transform: scale(1.1);
   transform: scale(1.05);
-  transition: 0.5s;
+  transition: all 0.5s ease;
 }
 .navbar .dropdown ul {
   display: block;
@@ -81,7 +99,7 @@ a {
   opacity: 0;
   visibility: hidden;
   background: rgb(255, 255, 255);
-  transition: 0.6s;
+  transition: all 0.6s ease;
 }
 .navbar .dropdown ul a {
   font-size: 2.5vh;
@@ -142,6 +160,60 @@ a {
   text-align: center;
   letter-spacing: normal;
   font-size: 3vw;
+}
+
+/*--------------------------------------------------------------
+# SECCIÓN INGRESOS
+--------------------------------------------------------------*/
+.ingresos {
+  text-transform: uppercase;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.ingresos h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.ingresosImg {
+  justify-content: space-around;
+  margin: 0;
+}
+
+.tituloIngresos {
+  padding-top: 6vh;
+  padding-bottom: 5vh;
+  margin-left: 7vw;
+}
+
+.itemIngresos {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: max-content;
+  overflow: hidden;
+}
+.itemIngresos p {
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  font-size: 2.7vh;
+}
+.itemIngresos:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+.itemIngresos1 {
+  padding-left: 13%;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.itemIngresos2 {
+  padding-right: 13%;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 /*--------------------------------------------------------------

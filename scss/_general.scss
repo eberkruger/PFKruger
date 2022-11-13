@@ -1,0 +1,49 @@
+/* ESTILOS DE FUENTES */
+
+@font-face {
+    font-family: outfit;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: latoRegular;
+    src: url(../assets/fonts/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: latoBold;
+    src: url(../assets/fonts/lato/Lato-Bold.ttf);
+}
+
+ @font-face {
+    font-family: latoLight;
+    src: url(../assets/fonts/lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: latoThin;
+    src: url(../assets/fonts/lato/Lato-Thin.ttf);
+}
+
+/* CONFIGURACIÓN GENERAL */
+
+html {
+    font-size: 62.5%;
+
+    body {
+        margin: 0;
+        padding: 0;
+        line-height: 2;
+        font-family: outfit;
+
+        ul {
+            list-style-type: none;
+
+        }
+    }
+}
+
+@mixin anclas {
+    text-decoration: none;
+    color: $color-fuentes;
+    display: inline-block;
+}
