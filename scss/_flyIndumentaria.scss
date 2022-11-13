@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# FLY INDUMENTARIA
+--------------------------------------------------------------*/
+.tituloPortada3 {
+    font-family: outfit;
+    text-transform: uppercase;
+    position: absolute;
+    top: 25vw;
+    left: 25vw;
+    color: white;
+  
+    h2 {
+      font-weight: bold;
+      font-size: $tam-fuente-h2;
+      letter-spacing: 2px;
+    }
+  
+    p {
+      text-align: center;
+      letter-spacing: normal;
+      font-size: 2.5vw;
+    }
+  }

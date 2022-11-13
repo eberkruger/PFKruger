@@ -406,4 +406,26 @@ html body ul {
   padding: 0%;
 }
 
+/*--------------------------------------------------------------
+# FLY INDUMENTARIA
+--------------------------------------------------------------*/
+.tituloPortada3 {
+  font-family: outfit;
+  text-transform: uppercase;
+  position: absolute;
+  top: 25vw;
+  left: 25vw;
+  color: white;
+}
+.tituloPortada3 h2 {
+  font-weight: bold;
+  font-size: 5vw;
+  letter-spacing: 2px;
+}
+.tituloPortada3 p {
+  text-align: center;
+  letter-spacing: normal;
+  font-size: 2.5vw;
+}
+
 /*# sourceMappingURL=style.css.map */
