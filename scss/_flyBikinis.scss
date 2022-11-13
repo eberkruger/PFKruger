@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------
+# FLY BIKINIS
+--------------------------------------------------------------*/
+
+.tituloPortada2 {
+    font-family: outfit;
+    text-transform: uppercase;
+    position: absolute;
+    top: 23vw;
+    left: 15vw;
+  
+    h2 {
+      font-weight: bold;
+      font-size: $tam-fuente-h2;
+      letter-spacing: 2px;
+    }
+  
+    p {
+      text-align: center;
+      letter-spacing: normal;
+      font-size: 2.5vw;
+    }
+  }
+  
+  .productosBikinis {
+    padding-top: 8vw;
+    margin: 0%;
+
+    p {
+        font-family: outfit;
+        font-size: $tam-fuente-parrafo;
+        margin-top: 1vw;
+        margin-bottom: 5vw;
+        font-weight: bold;
+        text-transform: uppercase; 
+    }
+  }
+  
+  .fotosFlyBikinis {
+    margin: 0%;
+    padding: 0%;
+  }
