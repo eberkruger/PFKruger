@@ -250,6 +250,9 @@ html body ul {
   margin: 0%;
 }
 .flyTiendas a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
   color: black;
   font-size: 1.3vw;
   background-color: white;
@@ -261,7 +264,7 @@ html body ul {
   color: rgb(122, 73, 73);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: all 0.5s ease;
 }
 
 .tiendas {
@@ -276,11 +279,13 @@ html body ul {
 .flyTiendas img {
   width: 100%;
   height: auto;
+  filter: grayscale(50%);
 }
 .flyTiendas:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  filter: grayscale(0%);
+  transition: all 2s ease;
 }
 
 .tituloTienda {
@@ -483,6 +488,108 @@ html body ul {
   font-family: outfit;
   font-weight: bold;
   font-size: 2.9vh;
+}
+
+/*--------------------------------------------------------------
+# SECCIÓN CONTACTO
+--------------------------------------------------------------*/
+.contacto {
+  padding: 0%;
+  margin: 0%;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-color: #C8ACA1;
+}
+
+.titulo5 {
+  padding: 0%;
+  margin: 0%;
+  padding-bottom: 1vw;
+}
+.titulo5 h2 {
+  font-family: outfit;
+  font-weight: bold;
+  font-size: 7vh;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtituloContacto {
+  padding: 0%;
+  margin: 0%;
+}
+.subtituloContacto h3 {
+  font-family: outfit;
+  font-weight: normal;
+  font-size: 5vh;
+}
+
+.datos {
+  margin: 0%;
+  padding: 0%;
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+}
+
+.itemsDatos h3 {
+  font-family: outfit;
+  font-weight: normal;
+  font-size: 5vh;
+  padding-bottom: 4vw;
+}
+.itemsDatos p {
+  font-family: outfit;
+  font-weight: normal;
+  font-size: 2.9vh;
+}
+
+.imagenSvg {
+  width: auto;
+  height: 5.5vh;
+  margin-bottom: 0.5vw;
+}
+
+.formulario {
+  font-family: latoRegular;
+  font-size: 2.5vh;
+  padding-top: 1vw;
+}
+
+.inputs {
+  margin-bottom: 1.5vw;
+  text-align: center;
+}
+
+.textInput {
+  width: 20vw;
+  color: black;
+  font-weight: normal;
+}
+
+@media (max-width: 767px) {
+  .textInput {
+    width: max-content;
+    color: black;
+    font-weight: normal;
+  }
+}
+.boton {
+  font-family: outfit;
+  text-transform: uppercase;
+  color: black;
+  background-color: #C8ACA1;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  text-align: center;
+}
+.boton:hover {
+  color: white;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 
 /*# sourceMappingURL=style.css.map */
