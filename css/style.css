@@ -222,11 +222,11 @@ html body ul {
 .indumentariaBikini {
   font-family: outfit;
   text-transform: uppercase;
-  background-color: rgba(185, 134, 134, 0.6117647059);
+  background-color: black;
   padding-top: 5vw;
 }
 .indumentariaBikini h2 {
-  color: black;
+  color: white;
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
@@ -242,12 +242,26 @@ html body ul {
   padding-bottom: 1.7vw;
 }
 
+.flyTiendas {
+  overflow: hidden;
+}
 .flyTiendas p {
   text-align: center;
   letter-spacing: normal;
   font-size: 1.8vw;
   color: white;
   margin: 0%;
+}
+.flyTiendas img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(50%);
+}
+.flyTiendas:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  transition: all 2s ease;
 }
 .flyTiendas a {
   text-decoration: none;
@@ -273,21 +287,6 @@ html body ul {
   text-align: center;
 }
 
-.flyTiendas {
-  overflow: hidden;
-}
-.flyTiendas img {
-  width: 100%;
-  height: auto;
-  filter: grayscale(50%);
-}
-.flyTiendas:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  filter: grayscale(0%);
-  transition: all 2s ease;
-}
-
 .tituloTienda {
   position: relative;
   bottom: 38vw;
@@ -309,18 +308,17 @@ html body ul {
 }
 .tituloInsta h2 {
   text-align: center;
-  font-size: 2vw;
+  font-size: 4vh;
   font-weight: bold;
-}
-
-.enlacesInsta {
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-bottom: 2vw;
 }
 
 .linkInstagram {
   margin: 0;
+  padding: 0;
+}
+
+.enlacesInsta {
+  padding-bottom: 3vw;
 }
 
 /* Sección Elegir */

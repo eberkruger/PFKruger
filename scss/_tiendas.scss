@@ -5,11 +5,11 @@
 .indumentariaBikini {
     font-family: outfit;
     text-transform: uppercase;
-    background-color: $color-secundario;
+    background-color: black;
     padding-top: 5vw;
   
     h2 {
-      color: black;
+      color: white;
       font-size: xx-large;
       font-weight: bold;
       text-align: center;
@@ -34,6 +34,21 @@
       color: white;
       margin: 0%;
     }
+
+    img {
+      width: 100%;
+      height: auto;
+      filter: grayscale(50%)
+    }
+  
+    &:hover img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      filter: grayscale(0%);
+      transition: all 2s ease;
+    }
+  
+    overflow: hidden;
   
     a {
       @include anclas;
@@ -58,23 +73,6 @@
     padding: 0%;
     margin: 0%;
     text-align: center;
-}
-  
-.flyTiendas {
-    img {
-      width: 100%;
-      height: auto;
-      filter: grayscale(50%)
-    }
-  
-    &:hover img {
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
-      filter: grayscale(0%);
-      transition: all 2s ease;
-    }
-  
-    overflow: hidden;
 }
   
 .tituloTienda {
