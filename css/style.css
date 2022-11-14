@@ -45,7 +45,7 @@ html body ul {
 .logo {
   color: black;
   font-weight: bold;
-  font-size: 5.5vh;
+  font-size: 3.5rem;
   text-transform: uppercase;
   margin-right: 1%;
   margin-left: 2%;
@@ -445,10 +445,12 @@ html body ul {
   margin: 0%;
   padding-top: 4vw;
   padding-bottom: 4vw;
+  border-top: solid black 3px;
+  border-bottom: solid black 3px;
 }
 .titulo4 h2 {
   font-family: outfit;
-  font-size: 5vw;
+  font-size: 8vh;
   font-weight: normal;
 }
 
@@ -470,7 +472,7 @@ html body ul {
 .titulo5 h3 {
   font-family: outfit;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 5vh;
 }
 
 .descripcion1 {

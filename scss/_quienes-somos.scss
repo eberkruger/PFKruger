@@ -16,10 +16,12 @@
     margin: 0%;
     padding-top: 4vw;
     padding-bottom: 4vw;
+    border-top: solid black 3px;
+    border-bottom:  solid black 3px;
   
     h2 {
       font-family: outfit;
-      font-size: $tam-fuente-h2;
+      font-size: 8vh;
       font-weight: normal;
     }
   }
@@ -42,7 +44,7 @@
     h3 {
       font-family: outfit;
       font-weight: bold;
-      font-size: 2.5vw;
+      font-size: 5vh;
     }
   }
   
