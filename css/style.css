@@ -344,7 +344,7 @@ html body ul {
 # FOOTER
 --------------------------------------------------------------*/
 .footer {
-  font-family: latoRegular;
+  font-family: outfit;
   color: white;
   background-color: black;
   padding-top: 4vw;
@@ -354,7 +354,7 @@ html body ul {
 .footer h2 {
   font-family: outfit;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 3.5rem;
   text-transform: uppercase;
   margin-bottom: 2vw;
   letter-spacing: 2px;
@@ -364,8 +364,8 @@ html body ul {
 }
 
 .imagenSvgFooter {
-  width: 3vw;
-  height: auto;
+  width: auto;
+  height: 6vh;
 }
 
 .redes {
@@ -455,8 +455,9 @@ html body ul {
 }
 .titulo4 h2 {
   font-family: outfit;
-  font-size: 8vh;
-  font-weight: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 7vh;
 }
 
 .imgSobreFly {
@@ -486,7 +487,7 @@ html body ul {
 }
 .descripcion1 p {
   font-family: outfit;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 2.9vh;
 }
 
