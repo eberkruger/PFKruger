@@ -8,8 +8,10 @@
 }
 
 .logo {
+
+  h1{
   color: black;
-  font-weight: bold;
+  width: max-content;
   font-size: $tam-fuente-logo;
   text-transform: uppercase;
   margin-right: 1%;
@@ -17,4 +19,6 @@
   margin-top: 1%;
   margin-bottom: 1%;
   letter-spacing: 1.5px;
+  }
+
 }
