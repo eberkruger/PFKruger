@@ -298,18 +298,17 @@ html body ul {
 .instagram {
   font-family: outfit;
   text-transform: uppercase;
-  padding-top: 4vw;
-  padding-bottom: 5vw;
+  padding-top: 12vh;
+  padding-bottom: 10vh;
   background-color: rgba(185, 134, 134, 0.6117647059);
 }
 
 .tituloInsta {
-  padding-bottom: 4vw;
+  padding-bottom: 8vh;
 }
 .tituloInsta h2 {
   text-align: center;
-  font-size: 4vh;
-  font-weight: bold;
+  font-size: 6vh;
 }
 
 .linkInstagram {
@@ -326,18 +325,17 @@ html body ul {
 /* Sección Elegir */
 .elegir {
   font-family: latoRegular;
-  padding-top: 4vw;
-  padding-bottom: 4vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 .elegir h2 {
   font-family: outfit;
-  font-weight: bold;
   font-size: 5vh;
-  margin-bottom: 3vw;
+  margin-bottom: 9vh;
 }
 .elegir p {
-  font-weight: normal;
   font-size: 4vh;
+  padding-bottom: 2vh;
 }
 
 /*--------------------------------------------------------------
@@ -393,7 +391,8 @@ html body ul {
 }
 
 .productosBikinis {
-  padding-top: 8vw;
+  padding-top: 14vh;
+  padding-bottom: 14vh;
   margin: 0%;
 }
 .productosBikinis p {
@@ -401,7 +400,6 @@ html body ul {
   font-size: 2.9vh;
   margin-top: 1vw;
   margin-bottom: 5vw;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -418,7 +416,7 @@ html body ul {
   text-transform: uppercase;
   position: absolute;
   top: 25vw;
-  left: 25vw;
+  left: 24.5vw;
   color: white;
 }
 .tituloPortada3 h2 {
@@ -447,8 +445,8 @@ html body ul {
 .titulo4 {
   padding: 0%;
   margin: 0%;
-  padding-top: 4vw;
-  padding-bottom: 4vw;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
   border-top: solid black 3px;
   border-bottom: solid black 3px;
 }
@@ -467,17 +465,15 @@ html body ul {
 .quienesSomos {
   padding: 0%;
   margin: 0%;
-  padding-top: 6vw;
-  padding-bottom: 6vw;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
-.titulo5 {
-  margin-bottom: 3.5vw;
-}
 .titulo5 h3 {
   font-family: outfit;
   font-weight: bold;
   font-size: 5vh;
+  margin-bottom: 5vh;
 }
 
 .descripcion1 {
@@ -629,7 +625,7 @@ html body ul {
   font-family: latoRegular;
   font-weight: bold;
   font-size: 5.3vh;
-  margin-top: 5vw;
+  margin-top: 12vh;
 }
 
 .imgSvgAyuda {
@@ -637,8 +633,8 @@ html body ul {
   height: 7vh;
   margin-left: 1vw;
   margin-right: 1vw;
-  margin-top: 4vw;
-  margin-bottom: 3.5vw;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
 }
 
 .opciones {
@@ -649,13 +645,13 @@ html body ul {
   font-family: latoRegular;
   font-weight: bold;
   font-size: 4.3vh;
-  margin-bottom: 1.1vw;
+  margin-bottom: 3.5vh;
 }
 .opciones h5 {
   font-family: latoLight;
   font-weight: bold;
   font-size: 3.8vh;
-  margin-bottom: 1.1vw;
+  margin-bottom: 3vh;
 }
 .opciones p {
   font-family: latoLight;

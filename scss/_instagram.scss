@@ -5,18 +5,17 @@
 .instagram {
     font-family: outfit;
     text-transform: uppercase;
-    padding-top: 4vw;
-    padding-bottom: 5vw;
+    padding-top: 12vh;
+    padding-bottom: 10vh;
     background-color: $color-secundario;
   }
   
 .tituloInsta {
-    padding-bottom: 4vw;
+    padding-bottom: 8vh;
   
     h2 {
       text-align: center;
-      font-size: 4vh;
-      font-weight: bold;
+      font-size: 6vh;
     }
   }
   
@@ -36,18 +35,17 @@
   
 .elegir {
     font-family: latoRegular;
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   
     h2 {
       font-family: outfit;
-      font-weight: bold;
       font-size: 5vh;
-      margin-bottom: 3vw;
+      margin-bottom: 9vh;
     }
   
     p {
-      font-weight: normal;
       font-size: 4vh;
+      padding-bottom: 2vh;
     }
   }
