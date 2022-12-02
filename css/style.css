@@ -424,6 +424,9 @@ html body ul {
 }
 .fotosFlyBikinis img {
   margin-bottom: 2vh;
+  width: auto;
+  height: 430px;
+  border-radius: 6px;
 }
 
 /*--------------------------------------------------------------
