@@ -4,18 +4,21 @@
 
 .ingresos {
   text-transform: uppercase;
-  margin-bottom: 0%;
+  margin-bottom: 5vh;
   padding-bottom: 0%;
 
   h2 {
     font-size: x-large;
-    font-weight: bold;
   }
 }
 
 .ingresosImg {
   justify-content: space-around;
   margin: 0;
+
+  img {
+    margin-bottom: 5vh;
+  }
 }
 
 .tituloIngresos {
@@ -31,9 +34,13 @@
   width: max-content;
 
   p {
-    margin-top: 2vw;
-    margin-bottom: 5vw;
     font-size: $tam-fuente-parrafo;
+    margin: 0;
+  }
+
+  .precios {
+    margin-bottom: 7vh;
+    font-weight: bold;
   }
 
   &:hover img {
@@ -46,13 +53,13 @@
 }
 
 .itemIngresos1 {
-  padding-left: 13%;
+  padding-left: 25%;
   padding-right: 0;
   margin-right: 0;
 }
 
 .itemIngresos2 {
-  padding-right: 13%;
+  padding-right: 25%;
   padding-left: 0;
   margin-left: 0;
 }

@@ -29,14 +29,29 @@
 
     p {
         font-family: outfit;
+        margin: 0;
         font-size: $tam-fuente-parrafo;
-        margin-top: 1vw;
-        margin-bottom: 5vw;
         text-transform: uppercase; 
+    }
+
+    .precios {
+      font-weight: bold;
     }
   }
   
-  .fotosFlyBikinis {
+  .fotosBikinis {
     margin: 0%;
     padding: 0%;
+    margin-bottom: 10vh;
+  }
+
+  .fotosFlyBikinis {
+    padding: 0;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    img {
+      margin-bottom: 2vh;
+    }
   }

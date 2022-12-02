@@ -170,17 +170,19 @@ html body ul {
 --------------------------------------------------------------*/
 .ingresos {
   text-transform: uppercase;
-  margin-bottom: 0%;
+  margin-bottom: 5vh;
   padding-bottom: 0%;
 }
 .ingresos h2 {
   font-size: x-large;
-  font-weight: bold;
 }
 
 .ingresosImg {
   justify-content: space-around;
   margin: 0;
+}
+.ingresosImg img {
+  margin-bottom: 5vh;
 }
 
 .tituloIngresos {
@@ -197,9 +199,12 @@ html body ul {
   overflow: hidden;
 }
 .itemIngresos p {
-  margin-top: 2vw;
-  margin-bottom: 5vw;
   font-size: 2.9vh;
+  margin: 0;
+}
+.itemIngresos .precios {
+  margin-bottom: 7vh;
+  font-weight: bold;
 }
 .itemIngresos:hover img {
   -webkit-transform: scale(1.1);
@@ -208,13 +213,13 @@ html body ul {
 }
 
 .itemIngresos1 {
-  padding-left: 13%;
+  padding-left: 25%;
   padding-right: 0;
   margin-right: 0;
 }
 
 .itemIngresos2 {
-  padding-right: 13%;
+  padding-right: 25%;
   padding-left: 0;
   margin-left: 0;
 }
@@ -226,14 +231,13 @@ html body ul {
   font-family: outfit;
   text-transform: uppercase;
   background-color: black;
-  padding-top: 5vw;
+  padding-top: 10vh;
 }
 .indumentariaBikini h2 {
   color: white;
-  font-size: xx-large;
-  font-weight: bold;
+  font-size: 6vh;
   text-align: center;
-  padding-bottom: 4vw;
+  padding-bottom: 8vh;
   letter-spacing: 2px;
 }
 
@@ -400,15 +404,28 @@ html body ul {
 }
 .productosBikinis p {
   font-family: outfit;
+  margin: 0;
   font-size: 2.9vh;
-  margin-top: 1vw;
-  margin-bottom: 5vw;
   text-transform: uppercase;
+}
+.productosBikinis .precios {
+  font-weight: bold;
+}
+
+.fotosBikinis {
+  margin: 0%;
+  padding: 0%;
+  margin-bottom: 10vh;
 }
 
 .fotosFlyBikinis {
-  margin: 0%;
-  padding: 0%;
+  padding: 0;
+  margin: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.fotosFlyBikinis img {
+  margin-bottom: 2vh;
 }
 
 /*--------------------------------------------------------------
