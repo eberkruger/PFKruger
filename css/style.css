@@ -42,6 +42,9 @@ html body ul {
   z-index: 997;
 }
 
+.logo {
+  width: 260px;
+}
 .logo h1 {
   color: black;
   width: max-content;
